@@ -7,7 +7,7 @@ nato_dict = {row.letter: row.code for index, row in nato_data.iterrows()}
 
 
 # TODO 2. Create a list of the phonetic code words from a word that the user inputs.
-# Error handling Day-30
+# Error handling 
 def generate_phonetic():
     username = input("Enter your name: ").upper()
     try:
